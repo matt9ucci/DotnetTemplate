@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+
+	"name": ".NET Source Generator project",
+	"description": "A .NET project for creating source generators",
+
+	"shortName": "sourcegenerator",
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"classifications": [
+		"Library"
+	],
+
+	"preferNameDirectory": true,
+
+	"sourceName": "Dotnet.SourceGenerator",
+	"symbols": {
+		"sgname": {
+			"type": "parameter",
+			"datatype": "text",
+			"replaces": "HelloWorld",
+			"fileRename": "HelloWorld"
+		}
+	},
+
+	"identity": "Dotnet.SourceGenerator",
+	"author": "Masatoshi Higuchi"
+}
